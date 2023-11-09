@@ -404,6 +404,13 @@ button.modal-close-btn.data-modal-close {
 
 }
 
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
     /* SECTION 1- FEATURES */
 
 
@@ -865,14 +872,20 @@ ul.row {
 /* CSS MEDIA QUERY */
 
 @media (min-width: 428px) {
-
+    .container {
+        width: 428px;
+    }
 }
 
 @media (min-width: 768px) {
-
+    .container {
+            width: 768px;
+        }
 }
 
 @media (min-width: 1200px) {
-
+    .container {
+            width: 1200px;
+        }
 
 }
