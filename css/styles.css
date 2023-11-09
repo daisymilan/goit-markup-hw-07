@@ -29,7 +29,7 @@ header {
     border-bottom: 1px;
 }
 
-.container {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
@@ -649,8 +649,8 @@ footer .logo {
     padding-top: 17.5px;
 }
 
-.footer .container {
-    justify-content: unset;
+.footer-section {
+    display: flex;
 }
 .footer-socials {
     display: flex;
@@ -860,4 +860,19 @@ ul.row {
     opacity: 0;
     transform: translateY(100%);
     transition: transform 0.25s cubic-bezier(0.4, 0,0.2,1);
+}
+
+/* CSS MEDIA QUERY */
+
+@media (min-width: 428px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+
 }
