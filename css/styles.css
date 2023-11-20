@@ -236,6 +236,7 @@ header {
 }
 
 .button1 {
+    border: none;
     border-radius: 4px;
     background: var(--IRIS);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -247,8 +248,6 @@ header {
     font-weight: 500;
     width: 164px;
     height: 59px;
-    align-self: center;
-
 }
 
 .button1:hover {
@@ -800,6 +799,10 @@ ul .section-2 {
     padding: 8px 24px;
     display: flex;
     gap: 16px;
+    border:none;
+}
+.subscribe-button p {
+    align-self: center;
 }
 
 /* PORTFOLIO */
