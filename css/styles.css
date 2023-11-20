@@ -1038,7 +1038,7 @@ ul.row {
     .desktop-nav {
         display: none;
     }
-    
+
     .js-close-menu {
         position:absolute;
         top: 10px;
@@ -1083,14 +1083,9 @@ ul.row {
        padding-left: 16px;
        justify-content: unset;
    }
-
-
-
 }
 
 @media (max-width: 1199px) {
-
-
     .section {
         width: unset;
     }
