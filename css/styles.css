@@ -273,7 +273,7 @@ header {
 .data-btn {
     background-color: var(--WHITE);
     width: 408px;
-    height: 584px;
+    height: 650px;
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--DAIRY, #FCFCFC);
@@ -482,6 +482,7 @@ button.modal-close-btn.data-modal-close,
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
  }
 
 .section-2 h2 {
@@ -1014,6 +1015,19 @@ ul.row {
 }
 
 @media (max-width: 428px) {
+    .data-btn {
+        width: 100%;
+
+    }
+
+    .service-input {
+        width: unset;
+    }
+
+    .service-input-textarea {
+        width: unset;
+    }
+
     .section-1-text {
         font-size: 36px;
         letter-spacing: 0.72px;
