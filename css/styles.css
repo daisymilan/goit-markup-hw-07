@@ -34,14 +34,11 @@ header {
     padding-bottom: 120px;
     display: flex;
    justify-content: center;
-    /* width: 1158px; */
     margin: 0 auto;
 }
 
 .top-line {
     display: flex;
-    /* padding-left: 156px;
-    padding-right: 156px; */
     border-bottom: 1px solid var(--CORNFLOWER,);
     background: var(--WHITE,);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -74,7 +71,6 @@ header {
     font-family: Raleway;
     line-height: 1.16667;
     font-weight: 800;
-    /* margin-left: 156px; */
     margin-right: 76px;
     margin-top: 25.5px;
     margin-bottom: 25.5px;
@@ -134,20 +130,10 @@ header {
 
 }
     /* CONTACTS */
-/* .contacts {
-    
-} */
-
 .desktop-contacts {
-    /* text-align: right; */
-    /* margin-top: 25.5px;
-    margin-bottom: 25.5px; */
-    /* gap: 40px; */
-    /* text-align: left; */
     padding-left: 0;
     margin-left: auto;
     list-style-type: none;
-    /* display: flex; */
 }
 
 .desktop-contacts li a{
@@ -259,7 +245,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.64px;
     font-weight: 500;
-    /* padding: 16px 32px; */
     width: 164px;
     height: 59px;
     align-self: center;
@@ -301,9 +286,6 @@ header {
     visibility: hidden;
 }
 
-/* .mobile-nav {
-    display: none;
-} */
 
 .btn-container {
     position: absolute;
@@ -312,7 +294,6 @@ header {
 
 button.modal-close-btn.data-modal-close,
 .js-close-menu {
-    /* float: right; */
     margin:24px 24px 0 0;
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -479,8 +460,6 @@ button.modal-close-btn.data-modal-close,
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-
-
 }
 
 .container {
@@ -492,7 +471,6 @@ button.modal-close-btn.data-modal-close,
 
     /* SECTION 1- FEATURES */
 
-
 .features-section {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -500,8 +478,6 @@ button.modal-close-btn.data-modal-close,
  }
 
  .features {
-    /* padding-left: 156px;
-    padding-right: 156px; */
     list-style: none;
     display: flex;
     gap: 24px;
@@ -569,7 +545,6 @@ ul .section-2 {
 
 .section-2-list {
     justify-content: center;
-    /* padding-bottom: 120px; */
     flex-wrap: wrap;
     padding: 0;
     list-style: none;
@@ -577,14 +552,7 @@ ul .section-2 {
     gap: 24px;
 }
 
-/* .section-2 li img {
-    width: 360px;
-} */
-
     /* SECTION CLASS TEAM */
-
-
-
 .team-container {
     background-color: var(--CLOUD);
     padding-bottom: 120px;
@@ -619,7 +587,6 @@ ul .section-2 {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-
 .team-name {
     font-size: 20px;
     color: var(--NAVY-BLUE);
@@ -629,8 +596,7 @@ ul .section-2 {
     letter-spacing: 0.4px;
     text-align: center;
     padding-top: 32px;
-    padding-bottom: 8px;
-    
+    padding-bottom: 8px;    
 }
 
 .team-p {
@@ -648,8 +614,7 @@ ul .section-2 {
     display: flex;
     justify-content: center;
     padding-bottom: 32px;
-    gap: 24px
-;
+    gap: 24px;
 }
 
 .team-socials-icon {
@@ -679,8 +644,6 @@ ul .section-2 {
     text-transform: capitalize;
     padding-top: 120px;
 }
-
-
 
 .customer-list {
     display: flex;
@@ -715,7 +678,6 @@ ul .section-2 {
     fill: var(--IRIS);
 }
 
-
      /* FOOTER */
 .footer {
     background-color: var(--NAVY-BLUE);
@@ -723,10 +685,8 @@ ul .section-2 {
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
-    /* padding-left: 100px; */
     flex-wrap: wrap;
     text-align: center;
-
 }
 
 .footer .logo {
@@ -756,13 +716,11 @@ ul .section-2 {
     justify-content:space-between;
     flex-wrap: wrap;
     row-gap: 72px;
-
 }
 
 .footer-socials {
     display: flex;
     flex-direction: column;
-    /* margin-left: 269px; */
 }
 
 .footer-soc-title {
@@ -796,10 +754,6 @@ ul .section-2 {
 
 .footer-socials-icon:hover {
     background-color: aquamarine;
-}
-
-.footer-subscribe {
-    /* padding-left: 80px; */
 }
 
 .subscribe {
@@ -847,8 +801,6 @@ ul .section-2 {
     gap: 16px;
 }
 
-
-
 /* PORTFOLIO */
 .menu-2 {
     display: flex;
@@ -892,7 +844,7 @@ ul .section-2 {
 
 ul.row {
     display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
     gap: 48px 24px;
     padding-bottom: 120px;
     flex-wrap: wrap;
@@ -903,7 +855,6 @@ ul.row {
    border: 1px solid var(--CORNFLOWER);
    background: var(--WHITE);
    overflow: hidden;
-
 }
 
 .cards:hover .cards-image-section{
@@ -925,7 +876,6 @@ ul.row {
 
 .img-cards {
     width: 360px;
-    flex-shrink: 0;
 }
 
 .cards-title {
@@ -973,7 +923,6 @@ ul.row {
 }
 
 /* CSS MEDIA QUERY */
-
 @media (min-width: 428px) {
     .container {
         width: 428px;
@@ -983,7 +932,6 @@ ul.row {
 @media (min-width: 768px) {
     .container {
         width: 768px;
-        
     }
 
     .mobile-nav {
@@ -1010,8 +958,6 @@ ul.row {
         flex-basis: calc(100% / 3 - 30px);
     }
 
-   
-
     .footer-section {
         justify-content: unset;
         padding-left: 108px;
@@ -1029,6 +975,12 @@ ul.row {
 
     .menu-2 {
         flex-wrap: nowrap;
+    }
+
+    .cards {
+        width: 356px;
+        margin: unset;
+        padding: unset;
     }
 
 }
@@ -1059,7 +1011,6 @@ ul.row {
     .customer-list {
         flex-basis: calc(100% / 6 - 30px);
     }
-
 }
 
 @media (max-width: 428px) {
@@ -1076,25 +1027,18 @@ ul.row {
    .menu-2 {
     align-self: center;
    }
-
-   
 }
 
 @media (max-width: 767px) {
 
     ul.row {
-            display: flex;
-            justify-content: center;
-        }
-
-    .cards {
-        flex-basis: calc(100% / 2);
+        display: flex;
     }
 
     .desktop-nav {
         display: none;
     }
-
+    
     .js-close-menu {
         position:absolute;
         top: 10px;
@@ -1103,6 +1047,7 @@ ul.row {
 
     .mobile-menu.is-open {
         transform: translateX(0);
+        z-index: 1;
     }
 
     .mobile-menu {
@@ -1144,10 +1089,7 @@ ul.row {
 }
 
 @media (max-width: 1199px) {
-    /* .container {
-        display: flex;
-        flex-direction: column;
-} */
+
 
     .section {
         width: unset;
@@ -1177,4 +1119,7 @@ ul.row {
         align-self: center;
     }
     
+    ul.row {
+        justify-content: unset;
+    }
 }
