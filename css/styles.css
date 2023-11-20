@@ -1041,6 +1041,10 @@ ul.row {
    .menu-2 {
     align-self: center;
    }
+
+   ul.row {
+    justify-content: center !important;
+   }
 }
 
 @media (max-width: 767px) {
